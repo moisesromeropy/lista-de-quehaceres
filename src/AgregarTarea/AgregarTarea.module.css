@@ -1,0 +1,46 @@
+.button{
+    background-color: #4CAF50; /* Color de fondo */
+    border: none; /* Sin borde */
+    color: white; /* Color del texto */
+    padding: 15px 32px; /* Espaciado interno */
+    text-align: center; /* Alineación del texto */
+    text-decoration: none; /* Sin decoración de texto */
+    display: inline-block; /* Mostrar como bloque en línea */
+    font-size: 16px; /* Tamaño de fuente */
+    margin: 4px 2px; /* Margen */
+    cursor: pointer; /* Cambiar el cursor al pasar sobre él */
+    border-radius: 8px; /* Radio de borde */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Sombra */
+    transition: box-shadow 0.3s ease, transform 0.3s ease; /* Transición de la sombra */
+}
+
+.button:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); /* Aumentar la sombra al pasar el ratón */
+  }
+  
+  .button:active {
+    transform: translateY(2px); /* Desplazar hacia abajo al hacer clic */
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2); /* Reducir la sombra al hacer clic */
+  }
+
+  .input {
+    padding: 10px; /* Espaciado interno */
+    border: 1px solid #ccc; /* Borde */
+    border-radius: 4px; /* Radio de borde */
+    margin-right: 10px; /* Margen derecho para separarlo del botón */
+  }
+  
+  /* Estilo cuando el input está enfocado */
+  .input:focus {
+    outline: none; /* Quita el contorno predeterminado */
+    border-color: #4CAF50; /* Cambia el color del borde cuando está enfocado */
+    box-shadow: 0 0 5px #4CAF50; /* Agrega una ligera sombra al enfocar */
+  }
+
+  .label {
+    display: inline-block; /* Mostrar en línea */
+    width: 100px; /* Ancho del label */
+    text-align: right; /* Alineación del texto a la derecha */
+    margin-right: 10px; /* Margen derecho para separarlo del input */
+  }
+  
